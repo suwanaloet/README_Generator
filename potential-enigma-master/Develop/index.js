@@ -107,7 +107,7 @@ init()
     .then(userAnswerData => {
         const readUserAnswerData = generateREADME(userAnswerData);
         console.log(userAnswerData);
-        fs.writeFile('README.md', readUserAnswerData, err => {
+        fs.writeFile('READMEnode.md', readUserAnswerData, err => {
                 if(err) throw new Error(err);
                  console.log('README.md created!');
         });
