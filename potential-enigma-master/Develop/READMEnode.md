@@ -1,6 +1,6 @@
 # README Generator
   ## Description
-  Readme generator made with node js and inquirer
+  README Generator made with node js and inquirer to make a quality README by answering a series of prompts.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -12,19 +12,19 @@
   * [GitHub](#github)
 
   ## Installation 
-  Download repo and run app locally in command line
+  Download or clone the repository and run the app locally in your terminal command line of choice.
 
   ## Usage
-  Run with node js
+  Please see tests. Run with node js
    
   ## License
   This project is licensed under the MIT.
 
   ## Credits
-  no other
+  No others
 
   ## Tests
-  Test video recorded right now to be added with next push
+  Test link at: https://drive.google.com/file/d/1WZK4UO2gsny4nHzIII2nXeKaydD75vTQ/view
   
   ## Questions
   Feel free to reach out at suwanaloet@wisc.edu.

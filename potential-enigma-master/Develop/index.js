@@ -67,7 +67,6 @@ const init = () => {
             type: 'input',
             name: 'installation',
             message: 'Please add installation instructions for your project (optional)',
-            default: false,
         },
 
         {
@@ -104,11 +103,14 @@ const init = () => {
 
 // function call to initialize program
 init()
-    .then(userAnswerData => {
-        const readUserAnswerData = generateREADME(userAnswerData);
-        console.log(userAnswerData);
-        fs.writeFile('READMEnode.md', readUserAnswerData, err => {
-                if(err) throw new Error(err);
-                 console.log('README.md created!');
+    .then(answers => {
+        const answerData = generateREADME(answers);
+        console.log(answers);
+        fs.writeFile('READMEnode.md', answerData, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            console.log('README.md created!');
         });
     });
