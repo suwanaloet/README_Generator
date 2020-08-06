@@ -3,16 +3,8 @@
 ## Description 
 
 ReadMe Generator made with node.js and inquirer. 
-
-
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+Sample readme can be found in github at: 
+* README_Generator => potential-enigma-master => Develop  => READMEnode.md 
 
 
 ## Installation
@@ -20,5 +12,4 @@ If your README is very long, add a table of contents to make it easy for users t
 Download the repository and run the app locally with nodejs. 
 
 ## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
+Video link: 
